@@ -12,7 +12,7 @@ package arr;
  * @date: 2020-01-08 19:29
  * @since V1.0.0-SNAPSHOT
  */
-public class FindIn2DArr {
+public class FindIn2DArray {
 
     /**
      * my result : 暴力查找，迭代每一个元素
