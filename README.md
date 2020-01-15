@@ -20,3 +20,13 @@
 ### [替换空格](str/ReplaceSpace.java)
 
 **考察点：字符串遍历、api**
+
+### [正则表达式匹配](str/RegularExpressionMatch.java)
+
+**考察点：递归、回溯、动态规划**
+
+注：该题还没有彻底研究，同Leetcode10
+
+### [表示数值的字符串](str/IsNumberString.java)
+
+**考察点：正则表达式、数字校验**
