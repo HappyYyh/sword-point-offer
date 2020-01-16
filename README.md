@@ -30,3 +30,7 @@
 ### [表示数值的字符串](str/IsNumberString.java)
 
 **考察点：正则表达式、数字校验**
+
+### [字符流中第一个不重复的字符](str/FirstUniqueCharacter.java)
+
+**考察点：哈希表**
