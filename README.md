@@ -34,3 +34,9 @@
 ### [字符流中第一个不重复的字符](str/FirstUniqueCharacter.java)
 
 **考察点：哈希表**
+
+## 链表
+
+### [从尾到头打印链表](linkedlist/ReversePrintLinkedList.java)
+
+**考察点：链表遍历、递归、迭代**
