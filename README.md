@@ -40,3 +40,7 @@
 ### [从尾到头打印链表](linkedlist/ReversePrintLinkedList.java)
 
 **考察点：链表遍历、递归、迭代**
+
+### [链表中环的入口结点](linkedlist/EntryNodeOfLoop.java)
+
+**考察点：环形链表、双指针**
