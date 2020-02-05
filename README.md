@@ -59,3 +59,8 @@
 
 **考察点：中序遍历**
 
+### [对称的二叉树](tree/SymmetricBinaryTree.java)
+
+**考察点：递归、迭代**
+
+同leetcode101
