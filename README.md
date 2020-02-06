@@ -64,3 +64,9 @@
 **考察点：递归、迭代**
 
 同leetcode101
+
+### [按之字形顺序打印二叉树](tree/PrintBinaryTree.java)
+
+**考察点：DFS和BFS**
+
+同leetcode107
