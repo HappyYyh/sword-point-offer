@@ -70,3 +70,9 @@
 **考察点：DFS和BFS**
 
 同leetcode107
+
+### [把二叉树打印成多行](tree/PrintBinaryTree2.java)
+
+**考察点：DFS和BFS**
+
+同leetcode107
