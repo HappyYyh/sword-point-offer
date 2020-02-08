@@ -76,3 +76,8 @@
 **考察点：DFS和BFS**
 
 同leetcode107
+
+### [序列化二叉树](tree/SerializeBinaryTree.java)
+
+**考察点：二叉树的遍历、递归**
+
