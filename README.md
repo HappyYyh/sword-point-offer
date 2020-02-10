@@ -84,3 +84,7 @@
 ### [二叉搜索树的第k个结点](tree/KthNode.java)
 
 **考察点：二叉搜索树、中序遍历**
+
+### [数据流中的中位数](tree/MedianInDataStream.java)
+
+**考察点：二叉搜索树、优先队列、堆**
