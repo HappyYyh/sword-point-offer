@@ -96,3 +96,7 @@
 ### [用两个栈实现队列](stackandqueue/ImplementQueueWithTwoStack.java)
 
 **考察点：栈、队列特性**
+
+### [滑动窗口的最大值](stackandqueue/MaxValueOfSlidingWindow.java)
+
+**考察点：优先队列、大根堆**
