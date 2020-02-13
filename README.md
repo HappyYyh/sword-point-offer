@@ -100,3 +100,12 @@
 ### [滑动窗口的最大值](stackandqueue/MaxValueOfSlidingWindow.java)
 
 **考察点：优先队列、大根堆**
+
+
+
+## 查找和排序
+
+### [旋转数组的最小数字](findandsort/MinNumberInRotateArray.java)
+
+**考察点：线性查找、二分查找**
+
