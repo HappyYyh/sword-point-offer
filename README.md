@@ -116,3 +116,9 @@
 ### [斐波那契数列](recursionandloop/Fibonacci.java)
 
 **考察点：递归、循环、动态规划**
+
+### [跳台阶](recursionandloop/JumpFloor.java)
+
+**考察点：递归**
+
+注：等同于上一题，斐波那契数列
