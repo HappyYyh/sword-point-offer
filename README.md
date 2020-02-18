@@ -128,3 +128,7 @@
 **考察点：找规律**
 
 注：复杂度更低，由上一题变种得来
+
+### [矩形覆盖](recursionandloop/RectangularCover.java)
+
+**考察点：斐波那契、递归**
