@@ -132,3 +132,10 @@
 ### [矩形覆盖](recursionandloop/RectangularCover.java)
 
 **考察点：斐波那契、递归**
+
+## 位运算
+
+### [二进制中1的个数](bitoperation/NumberOf1InBinary.java)
+
+**考察点：位运算**
+
