@@ -171,3 +171,9 @@
 
 注，同[leetcode206](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_206.java)
 
+### [合并两个排序的链表](coderobustness/MergeTwoSortedListNode.java)
+
+**考察点：链表的合并、递归、迭代**
+
+注，同[leetcode21](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_21.java)
+
