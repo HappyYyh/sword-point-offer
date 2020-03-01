@@ -208,3 +208,10 @@
 ### [栈的压入、弹出序列](example/StackPushAndSequencePop.java)
 
 **考察点：栈、队列**
+
+### [从上往下打印二叉树](example/PrintBinaryTreeFromTopToBottom.java)
+
+**考察点：BFS**
+
+注：同题[《把二叉树打印成多行》](tree/PrintBinaryTree2.java)
+
