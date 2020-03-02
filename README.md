@@ -215,3 +215,6 @@
 
 注：同题[《把二叉树打印成多行》](tree/PrintBinaryTree2.java)
 
+### [二叉搜索树的后序遍历序列](example/PostOrderOfBinarySearchTree.java)
+
+**考察点：二叉搜索树、后序遍历**
