@@ -218,3 +218,8 @@
 ### [二叉搜索树的后序遍历序列](example/PostOrderOfBinarySearchTree.java)
 
 **考察点：二叉搜索树、后序遍历**
+
+### [二叉树中和为某一值的路径](example/PathSumOfBinaryTree.java)
+
+**考察点：二叉树递归、回溯**
+
