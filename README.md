@@ -234,3 +234,11 @@
 ### [二叉搜索树与双向链表](decompose/BinarySearchTreeAndDoublyListNode.java)
 
 **考察点：二叉搜索树递归**
+
+### [字符串的排列](decompose/PermutationOfStr.java)
+
+该题为**字典序全排列**，即对于1.2..n有n!种排列方式，且数字小的在前;
+
+完全不会！！！
+
+**考察点：递归、回溯**
