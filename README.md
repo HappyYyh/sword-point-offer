@@ -242,3 +242,14 @@
 完全不会！！！
 
 **考察点：递归、回溯**
+
+
+
+##  时间效率
+
+###  [数组中出现次数超过一半的数字](timeefficiency/AppearMoreThanHalf.java)
+
+注，同[leetcode169](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_169.java)
+
+**考察点：数组迭代**
+
