@@ -253,3 +253,7 @@
 
 **考察点：数组迭代**
 
+### [最小的K个数](timeefficiency/MinimumNumberOfK.java)
+
+**考察点：大根堆、快排**
+
