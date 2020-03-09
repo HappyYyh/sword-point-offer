@@ -257,3 +257,8 @@
 
 **考察点：大根堆、快排**
 
+### [连续子数组的最大和](timeefficiency/MaximumSumOfConsecutiveSubArrays.java)
+
+注：同[leetcode53](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_53.java)
+
+**考察点：动态规划**
