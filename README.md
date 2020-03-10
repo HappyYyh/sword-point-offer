@@ -262,3 +262,8 @@
 注：同[leetcode53](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_53.java)
 
 **考察点：动态规划**
+
+### [整数中1出现的次数（从1到n整数中1出现的次数）](timeefficiency/OccurrencesOf1InTheInteger.java)
+
+**考察点：数学归纳法**
+
