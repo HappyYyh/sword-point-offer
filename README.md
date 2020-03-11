@@ -267,3 +267,7 @@
 
 **考察点：数学归纳法**
 
+### [把数组排成最小的数](timeefficiency/ArrangeTheArrayToTheSmallestNumber.java)
+
+**考察点：排序**
+
