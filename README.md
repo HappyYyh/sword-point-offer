@@ -271,3 +271,10 @@
 
 **考察点：排序**
 
+
+
+##  时间空间效率的平衡
+
+### [丑数](efficiencybalance/UglyNumber.java)
+
+**考察点：动态规划**
