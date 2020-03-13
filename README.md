@@ -278,3 +278,8 @@
 ### [丑数](efficiencybalance/UglyNumber.java)
 
 **考察点：动态规划**
+
+### [第一个只出现一次的字符](efficiencybalance/FirstAppearOnceChar.java)
+
+**考察点：Hash表、StringAPI**
+
