@@ -283,3 +283,9 @@
 
 **考察点：Hash表、StringAPI**
 
+### [数组中的逆序对](efficiencybalance/ReversePairsInArray.java)
+
+完全不会！
+
+**考察点：归并排序**
+
