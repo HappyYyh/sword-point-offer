@@ -83,13 +83,14 @@ public class FirstCommonNodeOfTwoListNode {
      */
     public static void main(String[] args) {
         ListNode pHead1 = new ListNode(1);
-        pHead1.next = new ListNode(3);
-        pHead1.next.next = new ListNode(5);
+        ListNode node3 = new ListNode(3);
+        ListNode node5 = new ListNode(5);
+        pHead1.next = node3;
+        node3.next = node5;
+
         ListNode pHead2 = new ListNode(2);
-        pHead2.next = new ListNode(4);
-        pHead2.next.next = new ListNode(3);
-        pHead2.next.next.next = new ListNode(5);
-        ListNode commonNode = FindFirstCommonNode2(pHead1, pHead2);
+        pHead2.next = node3;
+        ListNode commonNode = FindFirstCommonNode(pHead1, pHead2);
         if(commonNode == null){
             System.out.println("null");
         }else {
