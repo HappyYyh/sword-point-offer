@@ -289,3 +289,6 @@
 
 **考察点：归并排序**
 
+### [两个链表的第一个公共结点](efficiencybalance/FirstCommonNodeOfTwoListNode.java)
+
+**考察点：链表双指针**
