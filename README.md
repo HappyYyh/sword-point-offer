@@ -292,3 +292,12 @@
 ### [两个链表的第一个公共结点](efficiencybalance/FirstCommonNodeOfTwoListNode.java)
 
 **考察点：链表双指针**
+
+
+
+##  知识迁移能力
+
+### [数字在排序数组中出现的次数](knowledge/AppearTimesInSortedArray.java)
+
+**考察点：二分查找**
+
