@@ -301,3 +301,8 @@
 
 **考察点：二分查找**
 
+### [二叉树的深度](knowledge/TreeDepth.java)
+
+注：同[Leetcode104](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_104.java)
+
+**考察点：递归、迭代二叉树**
