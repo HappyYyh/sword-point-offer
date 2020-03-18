@@ -306,3 +306,9 @@
 注：同[Leetcode104](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_104.java)
 
 **考察点：递归、迭代二叉树**
+
+### [平衡二叉树](knowledge/BalancedBinaryTree.java)
+
+注：同[Leetcode110](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_110.java)
+
+**考察点：二叉树递归**
