@@ -312,3 +312,7 @@
 注：同[Leetcode110](https://github.com/HappyYyh/leetCode/blob/master/simple/Simple_110.java)
 
 **考察点：二叉树递归**
+
+### [数组中只出现一次的数字](knowledge/AppearOnlyOnce.java)
+
+**考察点：位运算**
