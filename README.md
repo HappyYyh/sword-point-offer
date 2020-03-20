@@ -316,3 +316,7 @@
 ### [数组中只出现一次的数字](knowledge/AppearOnlyOnce.java)
 
 **考察点：位运算**
+
+### [和为S的连续正数序列](knowledge/ContinuousSequence.java)
+
+**考察点：双指针、滑动窗口**
