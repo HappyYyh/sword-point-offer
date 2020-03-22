@@ -218,15 +218,113 @@ private static void insertSort2(int[] array) {
 
 ### 希尔排序
 
+希尔排序，也称 **递减增量排序算法**，是插入排序的一种更高效的改进版本。希尔排序是 **非稳定排序算法**。
+
+希尔排序是基于插入排序的以下两点性质而提出改进方法的：
+
+- 插入排序在对几乎已经排好序的数据操作时，效率高，即可以达到线性排序的效率
+- 但插入排序一般来说是低效的，因为插入排序每次只能将数据移动一
+
 **基本思想**
+
+希尔排序是把记录按下标的一定增量（gap）分组，对每组使用直接插入排序算法排序；随着增量逐渐减少，每组包含的关键词越来越多， 当增量减至 1  时，整个文件恰被分成一组，算法便终止
 
 **算法描述**
 
+1. 选择一个增量序列 t1，t2，……，tk，其中 ti > tj, tk = 1；
+2. 按增量序列个数 k，对序列进行 k 趟排序；
+3. 每趟排序，根据对应的增量 ti，将待排序列分割成若干长度为 m 的子序列，分别对各子表进行直接插入排序。仅增量因子为 1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。
+
+如下图所示：
+
+![希尔排序-过程1](http://image.yangyhao.top/blog/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F-%E8%BF%87%E7%A8%8B1.png)
+
+![希尔排序-过程2](http://image.yangyhao.top/blog/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F-%E8%BF%87%E7%A8%8B2.png)
+
 **代码实现**
+
+~~~java
+/**
+  * 希尔排序：交换法
+  *
+  * @param array
+  */
+private static void shellSort(int[] array) {
+    int tmp;
+    for (int gap = array.length / 2; gap > 0; gap /= 2) {
+        for (int i = gap; i < array.length; i++) {
+            // 遍历各组中所有的元素(共 gap 组，每组有个元素), 步长 gap
+            for (int j = i - gap; j >= 0; j -= gap) {
+                // 如果当前元素大于加上步长后的那个元素，说明交换
+                if (array[j] > array[j + gap]) {
+                    tmp = array[j];
+                    array[j] = array[j + gap];
+                    array[j + gap] = tmp;
+                }
+            }
+        }
+    }
+}
+
+/**
+  * 希尔排序：移位法
+  *
+  * @param array
+  */
+private static void shellSort2(int[] array) {
+    // 增量 gap, 并逐步的缩小增量
+    for (int gap = array.length / 2; gap > 0; gap /= 2) {
+        for (int i = gap; i < array.length; i++) {
+            int j = i;
+            int tmp = array[j];
+            if (array[j] < array[j - gap]) {
+                while (j - gap >= 0 && tmp < array[j - gap]) {
+                    //移动
+                    array[j] = array[j - gap];
+                    j -= gap;
+                }
+                //当退出 while 后，就给 tmp 找到插入的位置
+                array[j] = tmp;
+            }
+        }
+    }
+}
+
+/**
+  * 《算法》中给出的步长选择策略
+  * @param a
+  */
+private static void shellSort3(int[] a) {
+    int length = a.length;
+    int gap = 1;
+    while (gap < length / 3) {
+        gap = 3 * gap + 1;
+    }
+    for (; gap >= 1; gap /= 3) {
+        for (int i = 0; i < a.length - gap; i += gap) {
+            for (int j = i + gap; j > 0; j -= gap) {
+                if (a[j] < a[j - gap]) {
+                    int temp = a[j];
+                    a[j] = a[j - gap];
+                    a[j - gap] = temp;
+                }
+            }
+        }
+    }
+}
+~~~
 
 **复杂度分析**
 
+以下是希尔排序复杂度:
+
+| 平均时间复杂度 |  最好情况  |  最坏情况  | 空间复杂度 |
+| :------------: | :--------: | :--------: | :--------: |
+|   O(nlog2 n)   | O(nlog2 n) | O(nlog2 n) |    O(1)    |
+
 **总结与思考**
+
+希尔排序更高效的原因是它权衡了子数组的规模和有序性。排序之初，各个子数组都很短，排序之后子数组都是部分有序的，这两种情况都很适合插入排序。
 
 
 
@@ -345,6 +443,13 @@ private static void quickSort2(int[] array, int low, int high) {
 
 
 ### 堆排序
+
+- 堆排序是利用堆这种数据结构而设计的一种排序算法，堆排序是一种选择排序，它的最坏，最好，平均时间复
+  杂度均为 O(nlogn)，它也是不稳定排序。
+- 堆是具有以下性质的完全二叉树：每个结点的值都大于或等于其左右孩子结点的值，称为大顶堆, 注意 : 没有
+  要求结点的左孩子的值和右孩子的值的大小关系。
+
+
 
 **基本思想**
 
