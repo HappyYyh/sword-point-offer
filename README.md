@@ -320,3 +320,7 @@
 ### [和为S的连续正数序列](knowledge/ContinuousSequence.java)
 
 **考察点：双指针、滑动窗口**
+
+### [和为S的两个数字](knowledge/TwoNumberSum.java)
+
+**考察点：双指针**
