@@ -324,3 +324,7 @@
 ### [和为S的两个数字](knowledge/TwoNumberSum.java)
 
 **考察点：双指针**
+
+### [左旋转字符串](knowledge/LeftRotateString.java)
+
+**考察点：栈和队列、String的API**
