@@ -328,3 +328,8 @@
 ### [左旋转字符串](knowledge/LeftRotateString.java)
 
 **考察点：栈和队列、String的API**
+
+### [翻转单词顺序列](knowledge/ReverseSentence.java)
+
+**考察点：字符串API、滑动窗口**
+
