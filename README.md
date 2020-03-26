@@ -333,3 +333,8 @@
 
 **考察点：字符串API、滑动窗口**
 
+
+
+## 抽象建模能力
+
+### [扑克牌顺子](abstractmodeling/PlayingCardsStraight.java)
