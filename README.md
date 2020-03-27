@@ -338,3 +338,8 @@
 ## 抽象建模能力
 
 ### [扑克牌顺子](abstractmodeling/PlayingCardsStraight.java)
+
+### [孩子们的游戏(圆圈中最后剩下的数)](abstractmodeling/LastNumberInCircle.java)
+
+**考察点：约瑟夫环、环形链表、数学公式**
+
