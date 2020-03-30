@@ -354,3 +354,12 @@
 ### [不用加减乘除做加法](divergentthinking/Sum.java)
 
 **考察点：位运算**
+
+
+
+## 综合
+
+### [把字符串转换成整数](comprehensive/StrToInt.java)
+
+**考察点：int类型越界**
+
