@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * All rights Reserved, Designed By yyh
  * 归并排序
+ *
  * @Package sort
  * @author: yyh
  * @date: 2020-03-23 15:53
@@ -19,6 +20,7 @@ public class MergeSort {
 
     /**
      * 归并排序
+     *
      * @param array
      */
     public static void mergeSort(int[] array) {
@@ -29,6 +31,7 @@ public class MergeSort {
 
     /**
      * 分解
+     *
      * @param array
      * @param low
      * @param high
@@ -42,7 +45,7 @@ public class MergeSort {
         decompose(array, low, mid);
         //将右半边排序
         decompose(array, mid + 1, high);
-        merge(array, low, mid, high);
+        merge2(array, low, mid, high);
     }
 
     /**
@@ -52,6 +55,7 @@ public class MergeSort {
      * - 右半边用尽(取左半边的元素)
      * - 右半边的当前元素小于左半边的当前元素(取右半边的元素)
      * - 右半边的当前元素大于等于左半边的当前元素(取左半边的元素)
+     *
      * @param array
      * @param low
      * @param mid
@@ -73,6 +77,42 @@ public class MergeSort {
             } else {
                 array[k] = aux[i++];
             }
+        }
+    }
+
+    /**
+     * 更容易理解，参照图解
+     * @param arr
+     * @param left
+     * @param mid
+     * @param right
+     */
+    private static void merge2(int[] arr, int left, int mid, int right) {
+        //左序列指针
+        int i = left;
+        //右序列指针
+        int j = mid + 1;
+        //临时数组指针
+        int t = 0;
+        while (i <= mid && j <= right) {
+            if (arr[i] <= arr[j]) {
+                aux[t++] = arr[i++];
+            } else {
+                aux[t++] = arr[j++];
+            }
+        }
+        while (i <= mid) {
+            //将左边剩余元素填充进temp中
+            aux[t++] = arr[i++];
+        }
+        while (j <= right) {
+            //将右序列剩余元素填充进temp中
+            aux[t++] = arr[j++];
+        }
+        t = 0;
+        //将temp中的元素全部拷贝到原数组中
+        while (left <= right) {
+            arr[left++] = aux[t++];
         }
     }
 

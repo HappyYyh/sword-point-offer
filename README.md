@@ -374,3 +374,11 @@
 ### [机器人的运动范围](backtrack/RobotMoveRange.java)
 
 **考察点：递归、回溯**
+
+
+
+## 动态规划与贪婪
+
+### [剪绳子](dp/CutRope.java)
+
+**考察点：动态规划、找规律**
